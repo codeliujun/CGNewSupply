@@ -27,15 +27,27 @@ class CGMainHeaderView: CGBaseView {
     
     @IBOutlet var buttons: [UIButton]!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        let label = labels[0]
+        let view = views[0]
+        label.textColor = kThemeColor
+        view.backgroundColor = kThemeColor
+    }
+    
     @IBAction func tapButton(sender: UIButton) {
         
         for (index,value) in EnumerateSequence(buttons) {
-            
+            let label = labels[index]
+            let view = views[index]
             if value == sender {
-                
+                label.textColor = kThemeColor
+                view.backgroundColor = kThemeColor
+            }else {
+                label.textColor = UIColor.blackColor()
+                view.backgroundColor = UIColor.whiteColor()
             }
-            
         }
+  
     }
-    
 }

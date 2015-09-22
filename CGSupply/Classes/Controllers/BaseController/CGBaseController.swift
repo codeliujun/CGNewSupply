@@ -55,7 +55,7 @@ class CGBaseController: UIViewController {
         }
     }
     
-    //MRAK: 调出登录界面
+    //MARK: 调出登录界面
     func pushLoginVC() {
         
         let loginVC = CGLoginController()
@@ -64,4 +64,15 @@ class CGBaseController: UIViewController {
         
     }
     
+    //MARK: 用户id
+    var userId : String! {
+        get {
+            let userObj = CGConfigObj.shareConfig().userObj
+            if userObj == nil {
+                return "meidenglu"
+            }else {
+                return userObj?.Id
+            }
+        }
+    }
 }

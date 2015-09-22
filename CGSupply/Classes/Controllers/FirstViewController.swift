@@ -14,6 +14,8 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     
     @IBOutlet weak var noDataView: UIView!
     
+    var isNoData = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "主页"
@@ -37,15 +39,21 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
         
         if self.isLogin == false {
             self.pushLoginVC()
+        }else{
+           self.getData()
+            self.tableView.reloadData()
         }
-        
-        self.getData()
-        
     }
     
     func getData(){
         
-        self.request(url: <#T##String#>, parameters: <#T##NSDictionary!#>, success: <#T##((result: NSDictionary!) -> ())!##((result: NSDictionary!) -> ())!##(result: NSDictionary!) -> ()#>, failue: <#T##((failue: NSDictionary!) -> ())!##((failue: NSDictionary!) -> ())!##(failue: NSDictionary!) -> ()#>)
+        self.request(url: "SCM/splitorderlist", parameters: ["userid":self.userId,"pageindex":"1","pagesize":"20","status":"-1"], success: { (result:NSDictionary!) -> () in
+            
+            print("\(result)")
+            
+            }) { (failue:NSDictionary!) -> () in
+                
+        }
         
     }
     
@@ -61,19 +69,35 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        var count = 1
+        if isNoData == true {
+            count = 1
+        }else{
+            count = 10
+        }
+        return count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+      
+        if isNoData {
+            let cell = CGNoDataCell.cell() as! CGNoDataCell
+            cell.selectionStyle = UITableViewCellSelectionStyle.None
+            cell.backgroundColor = UIColor.clearColor()
+            return cell
+        }else {
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "13ws")
         cell.backgroundColor = UIColor.redColor()
-        
         return cell
+        }
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 44.0;
+        var height = 44.0
+        if isNoData == true {
+            height = kScreenSize.height.native-64.0-45.0-84.0
+        }
+        return CGFloat(height);
     }
     
     func tableView(tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {

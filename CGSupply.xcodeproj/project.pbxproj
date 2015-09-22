@@ -21,6 +21,8 @@
 		8523C0811BAFB89D00B3DF97 /* CGLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8523C0831BAFB8B500B3DF97 /* CGLoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */; settings = {ASSET_TAGS = (); }; };
 		8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C0851BAFBDC200B3DF97 /* CGButton.swift */; settings = {ASSET_TAGS = (); }; };
+		8579244C1BB0E90B00D3DB2C /* CGNoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */; settings = {ASSET_TAGS = (); }; };
 		85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E291BAFF352001B4C75 /* CGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E281BAFF352001B4C75 /* CGCache.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */; settings = {ASSET_TAGS = (); }; };
@@ -70,6 +72,8 @@
 		8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLoginCell.swift; sourceTree = "<group>"; };
 		8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGLoginCell.xib; sourceTree = "<group>"; };
 		8523C0851BAFBDC200B3DF97 /* CGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGButton.swift; sourceTree = "<group>"; };
+		8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGNoDataCell.swift; sourceTree = "<group>"; };
+		8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGNoDataCell.xib; sourceTree = "<group>"; };
 		85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGHTTPRequest.swift; sourceTree = "<group>"; };
 		85D64E281BAFF352001B4C75 /* CGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCache.swift; sourceTree = "<group>"; };
 		85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGConfigObj.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				8523C07E1BAFB72800B3DF97 /* CGBaseCell.swift */,
 				8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */,
 				8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */,
+				8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */,
+				8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -411,6 +417,7 @@
 				85DCEDCC1BABEC6E00E2F745 /* Main.storyboard in Resources */,
 				85DCEDD11BABEC6E00E2F745 /* LaunchScreen.xib in Resources */,
 				85DCEDFC1BABEEE200E2F745 /* ThirdViewController.xib in Resources */,
+				8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */,
 				85DCEDCE1BABEC6E00E2F745 /* Images.xcassets in Resources */,
 				8523C0831BAFB8B500B3DF97 /* CGLoginCell.xib in Resources */,
 				85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */,
@@ -486,6 +493,7 @@
 				85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */,
 				85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */,
 				8523C00F1BAE9A1B00B3DF97 /* UIColorHexColor.swift in Sources */,
+				8579244C1BB0E90B00D3DB2C /* CGNoDataCell.swift in Sources */,
 				85DCEDC71BABEC6E00E2F745 /* AppDelegate.swift in Sources */,
 				85DCEDF01BABEDA600E2F745 /* CGCommonObject.swift in Sources */,
 				8502126C1BB00F6D00E67D76 /* CGBaseView.swift in Sources */,

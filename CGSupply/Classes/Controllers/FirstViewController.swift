@@ -102,6 +102,7 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     
     func tableView(tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         return UIView();
+
     }
     
     /*

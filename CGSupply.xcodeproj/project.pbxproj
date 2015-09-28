@@ -42,6 +42,9 @@
 		85DCEDFF1BABEF1300E2F745 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCEDFD1BABEF1300E2F745 /* FourthViewController.swift */; };
 		85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */; };
 		85DCEE031BABF6B800E2F745 /* CGBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCEE021BABF6B800E2F745 /* CGBaseController.swift */; };
+		85EA27651BB9142C0050A5DE /* CGOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA27641BB9142C0050A5DE /* CGOrderCell.swift */; settings = {ASSET_TAGS = (); }; };
+		85EA27671BB9143D0050A5DE /* CGOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EA27661BB9143D0050A5DE /* CGOrderCell.xib */; settings = {ASSET_TAGS = (); }; };
+		85EA276E1BB943700050A5DE /* NSNull+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,10 @@
 		85DCEDFD1BABEF1300E2F745 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		85DCEE021BABF6B800E2F745 /* CGBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBaseController.swift; sourceTree = "<group>"; };
+		85EA27641BB9142C0050A5DE /* CGOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderCell.swift; sourceTree = "<group>"; };
+		85EA27661BB9143D0050A5DE /* CGOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGOrderCell.xib; sourceTree = "<group>"; };
+		85EA276C1BB943700050A5DE /* NSNull+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+NullSafe.h"; sourceTree = "<group>"; };
+		85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+NullSafe.m"; sourceTree = "<group>"; };
 		D1713B26E54EC2802A26C44F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +140,8 @@
 			children = (
 				8509B5111BB004CC009E0788 /* LIUCustomSwitch.h */,
 				8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */,
+				85EA276C1BB943700050A5DE /* NSNull+NullSafe.h */,
+				85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */,
 			);
 			path = OCCode;
 			sourceTree = "<group>";
@@ -145,6 +154,8 @@
 				8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */,
 				8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */,
 				8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */,
+				85EA27641BB9142C0050A5DE /* CGOrderCell.swift */,
+				85EA27661BB9143D0050A5DE /* CGOrderCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -424,6 +435,7 @@
 				8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */,
 				85DCEDF41BABEEB700E2F745 /* FirstViewController.xib in Resources */,
 				850212701BB00FE400E67D76 /* CGMainHeaderView.xib in Resources */,
+				85EA27671BB9143D0050A5DE /* CGOrderCell.xib in Resources */,
 				85DCEDF81BABEECC00E2F745 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,9 +499,11 @@
 				8523C0141BAF9C5000B3DF97 /* GlobValueConfig.swift in Sources */,
 				8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */,
 				85DCEDF31BABEEB700E2F745 /* FirstViewController.swift in Sources */,
+				85EA27651BB9142C0050A5DE /* CGOrderCell.swift in Sources */,
 				85DCEDFB1BABEEE200E2F745 /* ThirdViewController.swift in Sources */,
 				8509B5131BB004CC009E0788 /* LIUCustomSwitch.m in Sources */,
 				8523C07F1BAFB72800B3DF97 /* CGBaseCell.swift in Sources */,
+				85EA276E1BB943700050A5DE /* NSNull+NullSafe.m in Sources */,
 				85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */,
 				85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */,
 				8523C00F1BAE9A1B00B3DF97 /* UIColorHexColor.swift in Sources */,

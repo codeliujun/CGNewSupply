@@ -11,10 +11,11 @@ import Foundation
 extension String {
     
     public func length() -> Int {
-        var index = 0;
-        for _ in self.utf8 {
-            index = index + 1
-        }
+//        var index = 0;
+//        for _ in self.utf8 {
+//            index = index + 1
+//        }
+        let index = self.characters.count
         return index
     }
     

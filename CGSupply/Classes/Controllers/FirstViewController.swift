@@ -45,7 +45,7 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     
     func getData(){
         
-        self.request(url: <#T##String#>, parameters: <#T##NSDictionary!#>, success: <#T##((result: NSDictionary!) -> ())!##((result: NSDictionary!) -> ())!##(result: NSDictionary!) -> ()#>, failue: <#T##((failue: NSDictionary!) -> ())!##((failue: NSDictionary!) -> ())!##(failue: NSDictionary!) -> ()#>)
+       // self.request(url: <#T##String#>, parameters: <#T##NSDictionary!#>, success: <#T##((result: NSDictionary!) -> ())!##((result: NSDictionary!) -> ())!##(result: NSDictionary!) -> ()#>, failue: <#T##((failue: NSDictionary!) -> ())!##((failue: NSDictionary!) -> ())!##(failue: NSDictionary!) -> ()#>)
         
     }
     

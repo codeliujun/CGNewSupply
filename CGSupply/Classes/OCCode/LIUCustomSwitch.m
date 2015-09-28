@@ -8,6 +8,7 @@
 
 #import "LIUCustomSwitch.h"
 
+
 @interface LIUCustomSwitch ()
 
 @property(nonatomic,strong)UIImageView *left_rightView;

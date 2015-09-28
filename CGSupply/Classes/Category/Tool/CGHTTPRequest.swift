@@ -35,6 +35,7 @@ class CGHTTPRequest: NSObject {
         
         manager.GET(baseUrl, parameters: parameters, success:
         { (operation:AFHTTPRequestOperation, responseObject:AnyObject) -> Void in
+            
             let result = responseObject as! NSDictionary
             if  result["ErrorCode"] as! Int == 200 {
                 if  success != nil  {

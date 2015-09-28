@@ -16,16 +16,21 @@ enum SupplyOrderStatus : Int{
     
 }
 
-class CGMainHeaderView: CGBaseView {
+typealias DidChooseStatusBlock = (SupplyOrderStatus)->()
 
+class CGMainHeaderView: CGBaseView {
+    
     var orderStatus : SupplyOrderStatus! = SupplyOrderStatus.willSendOrder
     
+    var didChooseStatusBlock : DidChooseStatusBlock?
     
     @IBOutlet var labels: [UILabel]!
     
     @IBOutlet var views: [UIView]!
     
     @IBOutlet var buttons: [UIButton]!
+    
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -43,11 +48,33 @@ class CGMainHeaderView: CGBaseView {
             if value == sender {
                 label.textColor = kThemeColor
                 view.backgroundColor = kThemeColor
+                var sup = SupplyOrderStatus.willSendOrder
+                switch value {
+                case 0:
+                    sup = SupplyOrderStatus.willSendOrder
+                    break
+                    
+                case 1:
+                    sup = SupplyOrderStatus.didSendOrder
+                    break
+                    
+                case 2:
+                    sup = SupplyOrderStatus.errorOrder
+                    break
+                    
+                default:
+                    break
+                }
+                
+                if  (didChooseStatusBlock != nil) {
+                    didChooseStatusBlock!(sup)
+                }
+                
             }else {
                 label.textColor = UIColor.blackColor()
                 view.backgroundColor = UIColor.whiteColor()
             }
         }
-  
+        
     }
 }

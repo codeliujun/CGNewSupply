@@ -11,6 +11,10 @@
 		8502126C1BB00F6D00E67D76 /* CGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502126B1BB00F6D00E67D76 /* CGBaseView.swift */; settings = {ASSET_TAGS = (); }; };
 		8502126E1BB00F9900E67D76 /* CGMainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502126D1BB00F9900E67D76 /* CGMainHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
 		850212701BB00FE400E67D76 /* CGMainHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8502126F1BB00FE400E67D76 /* CGMainHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
+		85036E011BB9E10E0008823D /* OrderDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85036E001BB9E10E0008823D /* OrderDetail.storyboard */; settings = {ASSET_TAGS = (); }; };
+		85036E041BB9E1720008823D /* CGOrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E021BB9E1720008823D /* CGOrderDetailController.swift */; settings = {ASSET_TAGS = (); }; };
+		85036E071BB9EDB20008823D /* CGOrderHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */; settings = {ASSET_TAGS = (); }; };
+		85036E091BB9EE990008823D /* CGOrderGoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E081BB9EE990008823D /* CGOrderGoodCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8509B5131BB004CC009E0788 /* LIUCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */; settings = {ASSET_TAGS = (); }; };
 		8523C00C1BAE989C00B3DF97 /* CGLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */; settings = {ASSET_TAGS = (); }; };
 		8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8523C00B1BAE989C00B3DF97 /* CGLoginController.xib */; settings = {ASSET_TAGS = (); }; };
@@ -21,6 +25,8 @@
 		8523C0811BAFB89D00B3DF97 /* CGLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8523C0831BAFB8B500B3DF97 /* CGLoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */; settings = {ASSET_TAGS = (); }; };
 		8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C0851BAFBDC200B3DF97 /* CGButton.swift */; settings = {ASSET_TAGS = (); }; };
+		8579244C1BB0E90B00D3DB2C /* CGNoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */; settings = {ASSET_TAGS = (); }; };
 		85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E291BAFF352001B4C75 /* CGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E281BAFF352001B4C75 /* CGCache.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */; settings = {ASSET_TAGS = (); }; };
@@ -40,6 +46,9 @@
 		85DCEDFF1BABEF1300E2F745 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCEDFD1BABEF1300E2F745 /* FourthViewController.swift */; };
 		85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */; };
 		85DCEE031BABF6B800E2F745 /* CGBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCEE021BABF6B800E2F745 /* CGBaseController.swift */; };
+		85EA27651BB9142C0050A5DE /* CGOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA27641BB9142C0050A5DE /* CGOrderCell.swift */; settings = {ASSET_TAGS = (); }; };
+		85EA27671BB9143D0050A5DE /* CGOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EA27661BB9143D0050A5DE /* CGOrderCell.xib */; settings = {ASSET_TAGS = (); }; };
+		85EA276E1BB943700050A5DE /* NSNull+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,10 @@
 		8502126B1BB00F6D00E67D76 /* CGBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBaseView.swift; sourceTree = "<group>"; };
 		8502126D1BB00F9900E67D76 /* CGMainHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMainHeaderView.swift; sourceTree = "<group>"; };
 		8502126F1BB00FE400E67D76 /* CGMainHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGMainHeaderView.xib; sourceTree = "<group>"; };
+		85036E001BB9E10E0008823D /* OrderDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderDetail.storyboard; sourceTree = "<group>"; };
+		85036E021BB9E1720008823D /* CGOrderDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderDetailController.swift; sourceTree = "<group>"; };
+		85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderHeaderCell.swift; sourceTree = "<group>"; };
+		85036E081BB9EE990008823D /* CGOrderGoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderGoodCell.swift; sourceTree = "<group>"; };
 		8509B5111BB004CC009E0788 /* LIUCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUCustomSwitch.h; sourceTree = "<group>"; };
 		8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUCustomSwitch.m; sourceTree = "<group>"; };
 		8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLoginController.swift; sourceTree = "<group>"; };
@@ -70,6 +83,8 @@
 		8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLoginCell.swift; sourceTree = "<group>"; };
 		8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGLoginCell.xib; sourceTree = "<group>"; };
 		8523C0851BAFBDC200B3DF97 /* CGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGButton.swift; sourceTree = "<group>"; };
+		8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGNoDataCell.swift; sourceTree = "<group>"; };
+		8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGNoDataCell.xib; sourceTree = "<group>"; };
 		85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGHTTPRequest.swift; sourceTree = "<group>"; };
 		85D64E281BAFF352001B4C75 /* CGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCache.swift; sourceTree = "<group>"; };
 		85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGConfigObj.swift; sourceTree = "<group>"; };
@@ -93,6 +108,10 @@
 		85DCEDFD1BABEF1300E2F745 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		85DCEE021BABF6B800E2F745 /* CGBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBaseController.swift; sourceTree = "<group>"; };
+		85EA27641BB9142C0050A5DE /* CGOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderCell.swift; sourceTree = "<group>"; };
+		85EA27661BB9143D0050A5DE /* CGOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGOrderCell.xib; sourceTree = "<group>"; };
+		85EA276C1BB943700050A5DE /* NSNull+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+NullSafe.h"; sourceTree = "<group>"; };
+		85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+NullSafe.m"; sourceTree = "<group>"; };
 		D1713B26E54EC2802A26C44F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +148,8 @@
 			children = (
 				8509B5111BB004CC009E0788 /* LIUCustomSwitch.h */,
 				8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */,
+				85EA276C1BB943700050A5DE /* NSNull+NullSafe.h */,
+				85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */,
 			);
 			path = OCCode;
 			sourceTree = "<group>";
@@ -139,6 +160,12 @@
 				8523C07E1BAFB72800B3DF97 /* CGBaseCell.swift */,
 				8523C0801BAFB89D00B3DF97 /* CGLoginCell.swift */,
 				8523C0821BAFB8B500B3DF97 /* CGLoginCell.xib */,
+				8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */,
+				8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */,
+				85EA27641BB9142C0050A5DE /* CGOrderCell.swift */,
+				85EA27661BB9143D0050A5DE /* CGOrderCell.xib */,
+				85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */,
+				85036E081BB9EE990008823D /* CGOrderGoodCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -260,6 +287,8 @@
 				85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */,
 				8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */,
 				8523C00B1BAE989C00B3DF97 /* CGLoginController.xib */,
+				85036E021BB9E1720008823D /* CGOrderDetailController.swift */,
+				85036E001BB9E10E0008823D /* OrderDetail.storyboard */,
 				85DCEE011BABF69900E2F745 /* BaseController */,
 			);
 			path = Controllers;
@@ -411,12 +440,15 @@
 				85DCEDCC1BABEC6E00E2F745 /* Main.storyboard in Resources */,
 				85DCEDD11BABEC6E00E2F745 /* LaunchScreen.xib in Resources */,
 				85DCEDFC1BABEEE200E2F745 /* ThirdViewController.xib in Resources */,
+				8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */,
+				85036E011BB9E10E0008823D /* OrderDetail.storyboard in Resources */,
 				85DCEDCE1BABEC6E00E2F745 /* Images.xcassets in Resources */,
 				8523C0831BAFB8B500B3DF97 /* CGLoginCell.xib in Resources */,
 				85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */,
 				8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */,
 				85DCEDF41BABEEB700E2F745 /* FirstViewController.xib in Resources */,
 				850212701BB00FE400E67D76 /* CGMainHeaderView.xib in Resources */,
+				85EA27671BB9143D0050A5DE /* CGOrderCell.xib in Resources */,
 				85DCEDF81BABEECC00E2F745 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DCEDFF1BABEF1300E2F745 /* FourthViewController.swift in Sources */,
+				85036E071BB9EDB20008823D /* CGOrderHeaderCell.swift in Sources */,
 				8523C00C1BAE989C00B3DF97 /* CGLoginController.swift in Sources */,
 				85D64E2D1BAFFB54001B4C75 /* CGUserObj.swift in Sources */,
 				8523C0111BAEA0CC00B3DF97 /* StringLength.swift in Sources */,
@@ -476,16 +509,21 @@
 				85DCEE031BABF6B800E2F745 /* CGBaseController.swift in Sources */,
 				8502126E1BB00F9900E67D76 /* CGMainHeaderView.swift in Sources */,
 				85DCEDF71BABEECC00E2F745 /* SecondViewController.swift in Sources */,
+				85036E091BB9EE990008823D /* CGOrderGoodCell.swift in Sources */,
 				85D64E291BAFF352001B4C75 /* CGCache.swift in Sources */,
+				85036E041BB9E1720008823D /* CGOrderDetailController.swift in Sources */,
 				8523C0141BAF9C5000B3DF97 /* GlobValueConfig.swift in Sources */,
 				8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */,
 				85DCEDF31BABEEB700E2F745 /* FirstViewController.swift in Sources */,
+				85EA27651BB9142C0050A5DE /* CGOrderCell.swift in Sources */,
 				85DCEDFB1BABEEE200E2F745 /* ThirdViewController.swift in Sources */,
 				8509B5131BB004CC009E0788 /* LIUCustomSwitch.m in Sources */,
 				8523C07F1BAFB72800B3DF97 /* CGBaseCell.swift in Sources */,
+				85EA276E1BB943700050A5DE /* NSNull+NullSafe.m in Sources */,
 				85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */,
 				85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */,
 				8523C00F1BAE9A1B00B3DF97 /* UIColorHexColor.swift in Sources */,
+				8579244C1BB0E90B00D3DB2C /* CGNoDataCell.swift in Sources */,
 				85DCEDC71BABEC6E00E2F745 /* AppDelegate.swift in Sources */,
 				85DCEDF01BABEDA600E2F745 /* CGCommonObject.swift in Sources */,
 				8502126C1BB00F6D00E67D76 /* CGBaseView.swift in Sources */,

@@ -9,7 +9,7 @@
 import UIKit
 
 
-public let kThemeColor = UIColor(red: 22/255.0, green: 136/255.0, blue: 44/255.0, alpha: 1)
+public let kThemeColor = UIColor.HexColor("#0E99A1")
 public let kBackGroundColor = UIColor.HexColor("#F0F0F0")
 
 public let kScreenSize = UIScreen.mainScreen().bounds.size

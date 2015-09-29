@@ -22,7 +22,7 @@ class CGCommonObject: NSObject {
         commonObj.setUpSubViewController(viewController: firstVC, image: UIImage(named:"main_n"),highlightImgage:UIImage(named:"main_h"), title: "主页", tabBar: &tabBar);
         
         let secondVC = SecondViewController();
-        commonObj.setUpSubViewController(viewController: secondVC, image: UIImage(named:"main_n"),highlightImgage:UIImage(named:"main_h"), title: "个人中心", tabBar: &tabBar);
+        commonObj.setUpSubViewController(viewController: secondVC, image: UIImage(named:"my_n"),highlightImgage:UIImage(named:"my_h"), title: "个人中心", tabBar: &tabBar);
         
 //        let thirdVC = ThirdViewController();
 //        commonObj.setUpSubViewController(viewController: thirdVC, image: UIImage(named:"main_n"),highlightImgage:UIImage(named:"main_h"), title: "收藏", tabBar: &tabBar);

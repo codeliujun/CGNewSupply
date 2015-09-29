@@ -11,6 +11,13 @@
 		8502126C1BB00F6D00E67D76 /* CGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502126B1BB00F6D00E67D76 /* CGBaseView.swift */; settings = {ASSET_TAGS = (); }; };
 		8502126E1BB00F9900E67D76 /* CGMainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502126D1BB00F9900E67D76 /* CGMainHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
 		850212701BB00FE400E67D76 /* CGMainHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8502126F1BB00FE400E67D76 /* CGMainHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
+		85036E011BB9E10E0008823D /* OrderDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85036E001BB9E10E0008823D /* OrderDetail.storyboard */; settings = {ASSET_TAGS = (); }; };
+		85036E041BB9E1720008823D /* CGOrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E021BB9E1720008823D /* CGOrderDetailController.swift */; settings = {ASSET_TAGS = (); }; };
+		85036E071BB9EDB20008823D /* CGOrderHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */; settings = {ASSET_TAGS = (); }; };
+		85036E091BB9EE990008823D /* CGOrderGoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85036E081BB9EE990008823D /* CGOrderGoodCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8506C8C81BBA2FAA00477411 /* ZHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506C8C41BBA2FAA00477411 /* ZHBaseView.m */; settings = {ASSET_TAGS = (); }; };
+		8506C8C91BBA2FAA00477411 /* ZHUserCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506C8C61BBA2FAA00477411 /* ZHUserCenterHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		8506C8CA1BBA2FAA00477411 /* ZHUserCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8506C8C71BBA2FAA00477411 /* ZHUserCenterHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
 		8509B5131BB004CC009E0788 /* LIUCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */; settings = {ASSET_TAGS = (); }; };
 		8523C00C1BAE989C00B3DF97 /* CGLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */; settings = {ASSET_TAGS = (); }; };
 		8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8523C00B1BAE989C00B3DF97 /* CGLoginController.xib */; settings = {ASSET_TAGS = (); }; };
@@ -63,6 +70,15 @@
 		8502126B1BB00F6D00E67D76 /* CGBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBaseView.swift; sourceTree = "<group>"; };
 		8502126D1BB00F9900E67D76 /* CGMainHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMainHeaderView.swift; sourceTree = "<group>"; };
 		8502126F1BB00FE400E67D76 /* CGMainHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGMainHeaderView.xib; sourceTree = "<group>"; };
+		85036E001BB9E10E0008823D /* OrderDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderDetail.storyboard; sourceTree = "<group>"; };
+		85036E021BB9E1720008823D /* CGOrderDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderDetailController.swift; sourceTree = "<group>"; };
+		85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderHeaderCell.swift; sourceTree = "<group>"; };
+		85036E081BB9EE990008823D /* CGOrderGoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGOrderGoodCell.swift; sourceTree = "<group>"; };
+		8506C8C31BBA2FAA00477411 /* ZHBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseView.h; sourceTree = "<group>"; };
+		8506C8C41BBA2FAA00477411 /* ZHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseView.m; sourceTree = "<group>"; };
+		8506C8C51BBA2FAA00477411 /* ZHUserCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHUserCenterHeaderView.h; sourceTree = "<group>"; };
+		8506C8C61BBA2FAA00477411 /* ZHUserCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHUserCenterHeaderView.m; sourceTree = "<group>"; };
+		8506C8C71BBA2FAA00477411 /* ZHUserCenterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHUserCenterHeaderView.xib; sourceTree = "<group>"; };
 		8509B5111BB004CC009E0788 /* LIUCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUCustomSwitch.h; sourceTree = "<group>"; };
 		8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUCustomSwitch.m; sourceTree = "<group>"; };
 		8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLoginController.swift; sourceTree = "<group>"; };
@@ -81,7 +97,7 @@
 		85D64E281BAFF352001B4C75 /* CGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCache.swift; sourceTree = "<group>"; };
 		85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGConfigObj.swift; sourceTree = "<group>"; };
 		85D64E2C1BAFFB53001B4C75 /* CGUserObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUserObj.swift; sourceTree = "<group>"; };
-		85DCEDC11BABEC6E00E2F745 /* CGSupply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGSupply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DCEDC11BABEC6E00E2F745 /* 供货中心.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "供货中心.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DCEDC51BABEC6E00E2F745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DCEDC61BABEC6E00E2F745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DCEDCB1BABEC6E00E2F745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +158,11 @@
 				8509B5121BB004CC009E0788 /* LIUCustomSwitch.m */,
 				85EA276C1BB943700050A5DE /* NSNull+NullSafe.h */,
 				85EA276D1BB943700050A5DE /* NSNull+NullSafe.m */,
+				8506C8C31BBA2FAA00477411 /* ZHBaseView.h */,
+				8506C8C41BBA2FAA00477411 /* ZHBaseView.m */,
+				8506C8C51BBA2FAA00477411 /* ZHUserCenterHeaderView.h */,
+				8506C8C61BBA2FAA00477411 /* ZHUserCenterHeaderView.m */,
+				8506C8C71BBA2FAA00477411 /* ZHUserCenterHeaderView.xib */,
 			);
 			path = OCCode;
 			sourceTree = "<group>";
@@ -156,6 +177,8 @@
 				8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */,
 				85EA27641BB9142C0050A5DE /* CGOrderCell.swift */,
 				85EA27661BB9143D0050A5DE /* CGOrderCell.xib */,
+				85036E061BB9EDB20008823D /* CGOrderHeaderCell.swift */,
+				85036E081BB9EE990008823D /* CGOrderGoodCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -185,7 +208,7 @@
 		85DCEDC21BABEC6E00E2F745 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85DCEDC11BABEC6E00E2F745 /* CGSupply.app */,
+				85DCEDC11BABEC6E00E2F745 /* 供货中心.app */,
 				85DCEDD61BABEC6E00E2F745 /* CGSupplyTests.xctest */,
 			);
 			name = Products;
@@ -277,6 +300,8 @@
 				85DCEDFE1BABEF1300E2F745 /* FourthViewController.xib */,
 				8523C00A1BAE989C00B3DF97 /* CGLoginController.swift */,
 				8523C00B1BAE989C00B3DF97 /* CGLoginController.xib */,
+				85036E021BB9E1720008823D /* CGOrderDetailController.swift */,
+				85036E001BB9E10E0008823D /* OrderDetail.storyboard */,
 				85DCEE011BABF69900E2F745 /* BaseController */,
 			);
 			path = Controllers;
@@ -359,7 +384,7 @@
 			);
 			name = CGSupply;
 			productName = CGSupply;
-			productReference = 85DCEDC11BABEC6E00E2F745 /* CGSupply.app */;
+			productReference = 85DCEDC11BABEC6E00E2F745 /* 供货中心.app */;
 			productType = "com.apple.product-type.application";
 		};
 		85DCEDD51BABEC6E00E2F745 /* CGSupplyTests */ = {
@@ -429,8 +454,10 @@
 				85DCEDD11BABEC6E00E2F745 /* LaunchScreen.xib in Resources */,
 				85DCEDFC1BABEEE200E2F745 /* ThirdViewController.xib in Resources */,
 				8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */,
+				85036E011BB9E10E0008823D /* OrderDetail.storyboard in Resources */,
 				85DCEDCE1BABEC6E00E2F745 /* Images.xcassets in Resources */,
 				8523C0831BAFB8B500B3DF97 /* CGLoginCell.xib in Resources */,
+				8506C8CA1BBA2FAA00477411 /* ZHUserCenterHeaderView.xib in Resources */,
 				85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */,
 				8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */,
 				85DCEDF41BABEEB700E2F745 /* FirstViewController.xib in Resources */,
@@ -488,14 +515,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DCEDFF1BABEF1300E2F745 /* FourthViewController.swift in Sources */,
+				8506C8C91BBA2FAA00477411 /* ZHUserCenterHeaderView.m in Sources */,
+				85036E071BB9EDB20008823D /* CGOrderHeaderCell.swift in Sources */,
 				8523C00C1BAE989C00B3DF97 /* CGLoginController.swift in Sources */,
 				85D64E2D1BAFFB54001B4C75 /* CGUserObj.swift in Sources */,
 				8523C0111BAEA0CC00B3DF97 /* StringLength.swift in Sources */,
 				8523C0811BAFB89D00B3DF97 /* CGLoginCell.swift in Sources */,
 				85DCEE031BABF6B800E2F745 /* CGBaseController.swift in Sources */,
+				8506C8C81BBA2FAA00477411 /* ZHBaseView.m in Sources */,
 				8502126E1BB00F9900E67D76 /* CGMainHeaderView.swift in Sources */,
 				85DCEDF71BABEECC00E2F745 /* SecondViewController.swift in Sources */,
+				85036E091BB9EE990008823D /* CGOrderGoodCell.swift in Sources */,
 				85D64E291BAFF352001B4C75 /* CGCache.swift in Sources */,
+				85036E041BB9E1720008823D /* CGOrderDetailController.swift in Sources */,
 				8523C0141BAF9C5000B3DF97 /* GlobValueConfig.swift in Sources */,
 				8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */,
 				85DCEDF31BABEEB700E2F745 /* FirstViewController.swift in Sources */,
@@ -641,7 +673,8 @@
 				INFOPLIST_FILE = CGSupply/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "供货中心";
+				PROVISIONING_PROFILE = "893949cf-a94a-42cf-affd-e8524857f903";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CGSupply/Classes/Config/Header_Bridge.h";
 			};
 			name = Debug;
@@ -654,7 +687,8 @@
 				INFOPLIST_FILE = CGSupply/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "供货中心";
+				PROVISIONING_PROFILE = "893949cf-a94a-42cf-affd-e8524857f903";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CGSupply/Classes/Config/Header_Bridge.h";
 			};
 			name = Release;

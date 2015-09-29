@@ -44,8 +44,8 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
             case SupplyOrderStatus.errorOrder:
                 self.status = "1008"
                 break
-            default:
-                break
+//            default:
+//                break
             }
             
             self.getData()
@@ -58,8 +58,18 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     }
     
     override func viewWillAppear(animated: Bool) {
+       
         super.viewWillAppear(animated)
         
+//        if self.isLogin == false {
+//            self.pushLoginVC()
+//        }else{
+//            self.getData()
+//            self.tableView.reloadData()
+//        }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
         if self.isLogin == false {
             self.pushLoginVC()
         }else{
@@ -74,13 +84,12 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
         self.request(url: "SCM/splitorderlist", parameters: ["userid":self.userId,"pageindex":"1","pagesize":"20","status":self.status], success: { (result:NSDictionary!) -> () in
             
             self.dataList = result["Data"] as? NSArray
-            print("\(self.dataList)")
+            //print("\(self.dataList)")
             self.tableView.reloadData()
             
             }) { (failue:NSDictionary!) -> () in
                 
         }
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -131,7 +140,7 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         var height = 115.0
         if isNoData == true {
-            height = kScreenSize.height.native-64.0-45.0-84.0
+            height = Double(kScreenSize.height.native)-64.0-45.0-84.0
         }
         return CGFloat(height);
     }
@@ -154,6 +163,12 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
         let view = UIView();
         view.backgroundColor = UIColor.clearColor()
         return view
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let orderDetail = UIStoryboard(name: "OrderDetail", bundle: nil).instantiateInitialViewController() as! CGOrderDetailController
+        orderDetail.dataInfo = dataList?[indexPath.row] as! NSDictionary
+        self.navigationController?.pushViewController(orderDetail, animated: true);
     }
     
 }

@@ -15,5 +15,6 @@
 #import <Masonry/Masonry.h>
 #import "LIUCustomSwitch.h"
 #import "NSNull+NullSafe.h"
+#import "ZHUserCenterHeaderView.h"
 
 #endif /* Header_Bridge_h */

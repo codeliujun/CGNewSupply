@@ -35,11 +35,11 @@ class CGOrderCell: CGBaseCell {
             orderNOLabel.text = "订单状态：没有数据"
         }
         
-        if let str = dataInfo["SendBy"] {
+        if let str = dataInfo["UserName"] {
             if  str.isKindOfClass(NSNull.classForCoder()) {
                 shopNameLabel.text = "配送门店：没有数据"
             }else {
-                shopNameLabel.text = "订单状态：" + (str as! String)
+                shopNameLabel.text = "配送门店：" + (str as! String)
             }
         }
         
@@ -75,7 +75,7 @@ class CGOrderCell: CGBaseCell {
         
         let time1 = (time as NSString).substringWithRange(NSMakeRange(6, 10))
         
-        print("===\(time) ====\(time1)")
+        //print("===\(time) ====\(time1)")
         
         let timeInteravel = (time1 as NSString).doubleValue
         

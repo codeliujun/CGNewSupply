@@ -52,7 +52,7 @@ extension UIColor {
         let b = UnsafeMutablePointer<UInt32>.alloc(1)
         NSScanner(string: bStr).scanHexInt(b)
         
-        print("\(r.memory) \(g.memory) \(b.memory)")
+        //print("\(r.memory) \(g.memory) \(b.memory)")
         return UIColor(red: CGFloat(Double(r.memory)/255.0), green: CGFloat(Double(g.memory)/255.0), blue:CGFloat(Double(b.memory)/255.0), alpha:CGFloat(1))
 //        return UIColor.redColor()
     }

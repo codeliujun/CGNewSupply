@@ -149,7 +149,7 @@
                 <outlet property="pwdTextField" destination="WBG-qw-ZW2" id="P6r-ct-DxL"/>
                 <outlet property="rememberPwd" destination="vkk-KI-sbR" id="IJU-0u-Mhv"/>
             </connections>
-            <point key="canvasLocation" x="372" y="242"/>
+            <point key="canvasLocation" x="315" y="188"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -55,7 +55,7 @@ class CGLoginController: CGBaseController, UITableViewDelegate, UITableViewDataS
             self.phone = pramar.phone
             self.pwd = pramar.pwd
             self.isRemember = isRememberPwd
-            print("\(self.phone)----\(self.pwd)---\(self.isRemember)")
+            //print("\(self.phone)----\(self.pwd)---\(self.isRemember)")
             self.Login()
         }
         

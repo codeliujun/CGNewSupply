@@ -53,7 +53,7 @@ class FirstViewController: CGBaseController,UITableViewDelegate,UITableViewDataS
         headerView.frame = headerSuperView.frame
         headerSuperView.addSubview(headerView)
         self.tableView.tableHeaderView = headerSuperView
-        print("\(NSStringFromCGRect(headerView.frame))-----\(self.tableView.tableHeaderView?.frame))")
+       // print("\(NSStringFromCGRect(headerView.frame))-----\(self.tableView.tableHeaderView?.frame))")
         
     }
     

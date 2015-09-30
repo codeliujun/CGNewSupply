@@ -30,6 +30,8 @@
 		8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8523C0851BAFBDC200B3DF97 /* CGButton.swift */; settings = {ASSET_TAGS = (); }; };
 		8579244C1BB0E90B00D3DB2C /* CGNoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8579244E1BB0E91600D3DB2C /* CGNoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */; settings = {ASSET_TAGS = (); }; };
+		85899C5F1BBB7FA30028AA87 /* CGChoShopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85899C5E1BBB7FA30028AA87 /* CGChoShopHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
+		85899C611BBB7FBD0028AA87 /* CGChoShopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85899C601BBB7FBD0028AA87 /* CGChoShopHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
 		85D64E271BAFE201001B4C75 /* CGHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E291BAFF352001B4C75 /* CGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E281BAFF352001B4C75 /* CGCache.swift */; settings = {ASSET_TAGS = (); }; };
 		85D64E2B1BAFFA37001B4C75 /* CGConfigObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */; settings = {ASSET_TAGS = (); }; };
@@ -93,6 +95,8 @@
 		8523C0851BAFBDC200B3DF97 /* CGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGButton.swift; sourceTree = "<group>"; };
 		8579244B1BB0E90B00D3DB2C /* CGNoDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGNoDataCell.swift; sourceTree = "<group>"; };
 		8579244D1BB0E91600D3DB2C /* CGNoDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGNoDataCell.xib; sourceTree = "<group>"; };
+		85899C5E1BBB7FA30028AA87 /* CGChoShopHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGChoShopHeaderView.swift; sourceTree = "<group>"; };
+		85899C601BBB7FBD0028AA87 /* CGChoShopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGChoShopHeaderView.xib; sourceTree = "<group>"; };
 		85D64E261BAFE201001B4C75 /* CGHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGHTTPRequest.swift; sourceTree = "<group>"; };
 		85D64E281BAFF352001B4C75 /* CGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCache.swift; sourceTree = "<group>"; };
 		85D64E2A1BAFFA37001B4C75 /* CGConfigObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGConfigObj.swift; sourceTree = "<group>"; };
@@ -345,6 +349,8 @@
 				8502126B1BB00F6D00E67D76 /* CGBaseView.swift */,
 				8502126D1BB00F9900E67D76 /* CGMainHeaderView.swift */,
 				8502126F1BB00FE400E67D76 /* CGMainHeaderView.xib */,
+				85899C5E1BBB7FA30028AA87 /* CGChoShopHeaderView.swift */,
+				85899C601BBB7FBD0028AA87 /* CGChoShopHeaderView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -461,6 +467,7 @@
 				85DCEE001BABEF1300E2F745 /* FourthViewController.xib in Resources */,
 				8523C00D1BAE989C00B3DF97 /* CGLoginController.xib in Resources */,
 				85DCEDF41BABEEB700E2F745 /* FirstViewController.xib in Resources */,
+				85899C611BBB7FBD0028AA87 /* CGChoShopHeaderView.xib in Resources */,
 				850212701BB00FE400E67D76 /* CGMainHeaderView.xib in Resources */,
 				85EA27671BB9143D0050A5DE /* CGOrderCell.xib in Resources */,
 				85DCEDF81BABEECC00E2F745 /* SecondViewController.xib in Resources */,
@@ -530,6 +537,7 @@
 				85036E041BB9E1720008823D /* CGOrderDetailController.swift in Sources */,
 				8523C0141BAF9C5000B3DF97 /* GlobValueConfig.swift in Sources */,
 				8523C0861BAFBDC200B3DF97 /* CGButton.swift in Sources */,
+				85899C5F1BBB7FA30028AA87 /* CGChoShopHeaderView.swift in Sources */,
 				85DCEDF31BABEEB700E2F745 /* FirstViewController.swift in Sources */,
 				85EA27651BB9142C0050A5DE /* CGOrderCell.swift in Sources */,
 				85DCEDFB1BABEEE200E2F745 /* ThirdViewController.swift in Sources */,

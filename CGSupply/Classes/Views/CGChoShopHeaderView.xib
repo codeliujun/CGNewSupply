@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CGChoShopHeaderView" customModule="供货中心" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_choose_goods_template_n" highlightedImage="tab_choose_goods_template_checked_h" translatesAutoresizingMaskIntoConstraints="NO" id="z7F-Ib-8wV">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="44"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_choose_goods_template_n" highlightedImage="tab_choose_goods_template_checked_h" translatesAutoresizingMaskIntoConstraints="NO" id="nUN-Zg-Ot5">
+                    <rect key="frame" x="80" y="0.0" width="80" height="44"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_choose_goods_template_n" highlightedImage="tab_choose_goods_template_checked_h" translatesAutoresizingMaskIntoConstraints="NO" id="aKG-VM-0Ps">
+                    <rect key="frame" x="240" y="0.0" width="80" height="44"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_choose_goods_template_n" highlightedImage="tab_choose_goods_template_checked_h" translatesAutoresizingMaskIntoConstraints="NO" id="nWg-ai-LnV">
+                    <rect key="frame" x="160" y="0.0" width="80" height="44"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nUN-Zg-Ot5" firstAttribute="width" secondItem="z7F-Ib-8wV" secondAttribute="width" id="5TB-XS-2gx"/>
+                <constraint firstAttribute="bottom" secondItem="z7F-Ib-8wV" secondAttribute="bottom" id="66Y-08-Xwl"/>
+                <constraint firstItem="aKG-VM-0Ps" firstAttribute="height" secondItem="z7F-Ib-8wV" secondAttribute="height" id="Ege-ZW-To5"/>
+                <constraint firstItem="nWg-ai-LnV" firstAttribute="height" secondItem="z7F-Ib-8wV" secondAttribute="height" id="Kja-v2-dLT"/>
+                <constraint firstItem="aKG-VM-0Ps" firstAttribute="width" secondItem="z7F-Ib-8wV" secondAttribute="width" id="Nfq-sE-hgT"/>
+                <constraint firstItem="aKG-VM-0Ps" firstAttribute="leading" secondItem="nWg-ai-LnV" secondAttribute="trailing" id="QmZ-bs-crq"/>
+                <constraint firstItem="nUN-Zg-Ot5" firstAttribute="leading" secondItem="z7F-Ib-8wV" secondAttribute="trailing" id="Reb-Vx-SbQ"/>
+                <constraint firstAttribute="bottom" secondItem="nWg-ai-LnV" secondAttribute="bottom" id="RgL-vQ-4Av"/>
+                <constraint firstItem="nWg-ai-LnV" firstAttribute="leading" secondItem="nUN-Zg-Ot5" secondAttribute="trailing" id="VDf-4L-P08"/>
+                <constraint firstAttribute="trailing" secondItem="aKG-VM-0Ps" secondAttribute="trailing" id="Xrj-O2-gCU"/>
+                <constraint firstItem="nWg-ai-LnV" firstAttribute="width" secondItem="z7F-Ib-8wV" secondAttribute="width" id="YCK-ke-cle"/>
+                <constraint firstItem="nUN-Zg-Ot5" firstAttribute="height" secondItem="z7F-Ib-8wV" secondAttribute="height" id="bb0-1g-3WN"/>
+                <constraint firstItem="z7F-Ib-8wV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bgN-Bf-CJ4"/>
+                <constraint firstAttribute="bottom" secondItem="nUN-Zg-Ot5" secondAttribute="bottom" id="ffO-Cr-aR4"/>
+                <constraint firstItem="z7F-Ib-8wV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="icy-ua-rDw"/>
+                <constraint firstItem="nWg-ai-LnV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jx2-tL-3EE"/>
+                <constraint firstAttribute="bottom" secondItem="aKG-VM-0Ps" secondAttribute="bottom" id="rjx-0I-joN"/>
+                <constraint firstItem="aKG-VM-0Ps" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="scZ-49-cAz"/>
+                <constraint firstItem="nUN-Zg-Ot5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wMP-lV-hQf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="proImages" destination="z7F-Ib-8wV" collectionClass="NSMutableArray" id="fw9-cD-jSw"/>
+                <outletCollection property="proImages" destination="nUN-Zg-Ot5" collectionClass="NSMutableArray" id="dtL-Uh-rgU"/>
+                <outletCollection property="proImages" destination="nWg-ai-LnV" collectionClass="NSMutableArray" id="0y8-gB-8jw"/>
+                <outletCollection property="proImages" destination="aKG-VM-0Ps" collectionClass="NSMutableArray" id="Xjo-Nd-gwm"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="333"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tab_choose_goods_template_checked_h" width="336" height="68"/>
+        <image name="tab_choose_goods_template_n" width="335" height="68"/>
+    </resources>
+</document>
